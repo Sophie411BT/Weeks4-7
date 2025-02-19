@@ -5,11 +5,13 @@ using UnityEngine;
 
 public class Fluff_Movement : MonoBehaviour
 {
-    public float speed = 1f;
+    public float speed;
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+        speed = Random.Range(1f, 10f);
+        Destroy(gameObject, 10); 
     }
 
     // Update is called once per frame
