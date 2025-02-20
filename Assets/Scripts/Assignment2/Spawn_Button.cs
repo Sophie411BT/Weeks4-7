@@ -24,6 +24,9 @@ public class Spawn_Button : MonoBehaviour
     {
         //tell the code to acually get the prefab using instantiate
         Instantiate(prefab);
+
+        prefab.GetComponent<Fluff_Movement>().transform.localScale = Vector3.one * Random.Range(0.5f, 1.5f);
+        prefab.GetComponent<Fluff_Movement>().speed = Random.Range(.5f, 5.5f);
     }
 }
 

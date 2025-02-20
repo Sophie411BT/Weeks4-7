@@ -206,11 +206,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &72305714 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 5432733942245800386, guid: 088e741328de68d4db9bfd458e369d08, type: 3}
-  m_PrefabInstance: {fileID: 3080402221512195415}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &496013829
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,7 +973,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 2259676452370805545, guid: 088e741328de68d4db9bfd458e369d08, type: 3}
-  spriterenderer: {fileID: 72305714}
+  spriterenderer: {fileID: 5432733942245800386, guid: 088e741328de68d4db9bfd458e369d08, type: 3}
 --- !u!1 &1877754424
 GameObject:
   m_ObjectHideFlags: 0

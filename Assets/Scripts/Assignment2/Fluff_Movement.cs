@@ -10,7 +10,7 @@ public class Fluff_Movement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = Random.Range(1f, 10f);
+        
         Destroy(gameObject, 10); 
     }
 
@@ -40,5 +40,7 @@ public class Fluff_Movement : MonoBehaviour
 
         //always remember to set transform position = to pos for new position
         transform.position = pos;
+
+        
     }
 }
